@@ -13,22 +13,22 @@
        <nav>
         <div class="personal__logo">Noah Taylor</div>
         <ul class="nav__link--list">
-            <li>
-                <a href="" class="
+            <li class="nav__link">
+                <a href="#languages" class="
                 nav__link--anchor
                 link__hover-effect
                 link__hover-effect--black
                 ">Languages</a>
             </li>
-            <li>
-                <a href="" class="
+            <li class="nav__link">
+                <a href="#projects" class="
                 nav__link--anchor
                 link__hover-effect
                 link__hover-effect--black
                 ">Projects</a>
             </li>
-            <li>
-                <a href="" class="
+            <li class="nav__link">
+                <a href="mailto:noahtaylor90@gmail.com" class="
                 nav__link--anchor
                 nav__link--anchor-primary
                 ">Contact</a>
@@ -42,30 +42,30 @@
                     <img src="./assets/hang.jpg" class="about-me__picture" alt="pic of me">
                 </figure>
                 <h1 class="about-me__info--title">
-                    Hey! I'm <span class="text--purple">Noah Taylor</span> 👋 
+                    Hey! I'm <span class="text--purple">Noah Taylor</span>&nbsp;<span class="wave">👋</span> 
                 </h1>
                 <p class="about-me__info--para">
-                    I'm a <strong class="text--purple">frontend developer</strong> in training. After 15 years in the trades I have decided on a huge pivot.
+                    I'm a <strong class="text--purple">frontend software engineer</strong> in training. After 15 years in the trades I have decided to make a career change.
                 </p>
-                    <div class="about-me__links">
-                        <a href="" class="about-me__link">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                        <a href="" class="about-me__link">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                        <a href="" class="about-me__link">
-                            <i class="fa-regular fa-envelope"></i>
-                        </a>
-                        <a href="" class="about-me__link">
-                            <i class="fas fa-file-pdf"></i>
-                        </a>
-                    </div>
-                </div> 
-                <figure class="about-me__img--container">
-                    <img src="./assets/coder.svg" class="about-me__img" alt="">
-                </figure>
-            </div>
+                <div class="about-me__links">
+                    <a href="" class="about-me__link">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="" class="about-me__link">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="" class="about-me__link">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                    <a href="./assets/resume.pdf" target="_blank" class="about-me__link">
+                        <i class="fas fa-file-pdf"></i>
+                    </a>
+                </div>
+            </div> 
+            <figure class="about-me__img--container">
+                <img src="./assets/coder.svg" class="about-me__img" alt="">
+            </figure>
+        </div>
        </div>
     </section>
     <section id="languages">
@@ -73,7 +73,7 @@
             <div class="row">
                 <h1 class="section__title">
                     This is my 
-                    <span class="text--purple"> technology stack</span>
+                    <span class="text--purple">technology stack</span>
                 </h1>
                 <div class="language__list">
                     <div class="language">
@@ -106,28 +106,76 @@
     </section>
     <section id="projects">
         <div class="container">
-            <h1 class="section__title">Here are some of my <span class="text--purple">projects</span></h1>
-            <ul class="project__list">
-                <li class="project">
-                    <div class="project__wrapper">
-                        <img src="https://images.ctfassets.net/gwbpo1m641r7/31PSb4hRlUqHS6bCnfqNmw/ea87711e287cd6a61dee807d023d32c8/02_Dropbox.jpeg?w=1920&q=100&fit=fill&fm=avif" class="project__img" alt="">
-                        <div class="project__description">
-                            <h3 class="project__description--title">Dummy text</h3>
-                            <h4 class="project__description--sub-title">HTML, CSS, JavaScript, React
-                            </h4>
-                            <p class="project__description--para"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat magnam corrupti minima vel aspernatur. Cupiditate dolor eos iusto odio. Eligendi fugit cupiditate et velit sed maiores, blanditiis numquam voluptatum.
-                            </p>
-                            <div class="project__description--links">
-                                <a href="GITHUB LINK" target="_blank" class="project__description--link">
-                                  <i class="fa-brands fa-github"></i>
-                                 <a href="github.com/yourlink" target="_blank" class="project__description--link">
-                                  <i class="fa-brands fa-linkedin"></i>
-                                </a>
+            <div class="row">
+                <h1 class="section__title">
+                    Here are some of my <span class="text--purple">projects</span>
+                </h1>
+                <ul class="project__list">
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="https://images.ctfassets.net/gwbpo1m641r7/31PSb4hRlUqHS6bCnfqNmw/ea87711e287cd6a61dee807d023d32c8/02_Dropbox.jpeg?w=1920&q=100&fit=fill&fm=avif" class="project__img" alt="">
+                            <div class="project__description">
+                                <h3 class="project__description--title">Not my work!</h3>
+                                <h4 class="project__description--sub-title">HTML, CSS, JavaScript, React
+                                </h4>
+                                <p class="project__description--para"> 
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat magnam corrupti minima vel aspernatur. Cupiditate dolor eos iusto odio. Eligendi fugit cupiditate et velit sed maiores, blanditiis numquam voluptatum.
+                                </p>
+                                <div class="project__description--links">
+                                    <a href="GITHUB LINK" target="_blank" class="project__description--link">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                    <a href="github.com/yourlink" target="_blank" class="project__description--link">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </li>
-            </ul>
+                    </li>
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="https://images.ctfassets.net/gwbpo1m641r7/31PSb4hRlUqHS6bCnfqNmw/ea87711e287cd6a61dee807d023d32c8/02_Dropbox.jpeg?w=1920&q=100&fit=fill&fm=avif" class="project__img" alt="">
+                            <div class="project__description">
+                                <h3 class="project__description--title">Not my work!</h3>
+                                <h4 class="project__description--sub-title">HTML, CSS, JavaScript, React
+                                </h4>
+                                <p class="project__description--para"> 
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat magnam corrupti minima vel aspernatur. Cupiditate dolor eos iusto odio. Eligendi fugit cupiditate et velit sed maiores, blanditiis numquam voluptatum.
+                                </p>
+                                <div class="project__description--links">
+                                    <a href="GITHUB LINK" target="_blank" class="project__description--link">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                    <a href="github.com/yourlink" target="_blank" class="project__description--link">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="https://images.ctfassets.net/gwbpo1m641r7/31PSb4hRlUqHS6bCnfqNmw/ea87711e287cd6a61dee807d023d32c8/02_Dropbox.jpeg?w=1920&q=100&fit=fill&fm=avif" class="project__img" alt="">
+                            <div class="project__description">
+                                <h3 class="project__description--title">Not my work!</h3>
+                                <h4 class="project__description--sub-title">HTML, CSS, JavaScript, React
+                                </h4>
+                                <p class="project__description--para"> 
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat magnam corrupti minima vel aspernatur. Cupiditate dolor eos iusto odio. Eligendi fugit cupiditate et velit sed maiores, blanditiis numquam voluptatum.
+                                </p>
+                                <div class="project__description--links">
+                                    <a href="GITHUB LINK" target="_blank" class="project__description--link">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                    <a href="github.com/yourlink" target="_blank" class="project__description--link">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>    
+            </div>
         </div>
     </section>
     <footer>
@@ -144,19 +192,19 @@
             <div class="footer__social--list">
                 <a href="" target="_blank" class="
                 footer__social--link
-                link__hover--effect
+                link__hover-effect
                 link__hover-effect--white">Github</a>
                 <a href="" target="_blank" class="
                 footer__social--link
-                link__hover--effect
+                link__hover-effect
                 link__hover-effect--white">LinkedIn</a>
                 <a href="mailto:noahtaylor90@gmail.com" target="_blank" class="
                 footer__social--link
-                link__hover--effect
+                link__hover-effect
                 link__hover-effect--white">Email</a>
                 <a href="" target="_blank" class="
                 footer__social--link
-                link__hover--effect
+                link__hover-effect
                 link__hover-effect--white" download>Resume</a>
             </div>
             <div class="footer__copyright"> Copyright <i class="fa-regular fa-copyright"></i> 2026 Noah Taylor</div>
